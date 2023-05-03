@@ -4,14 +4,14 @@ TRUNCATE albums;
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
     VALUES
-        ('Michael Jackson','Thriller','1982','51.2','Pop'),
-        ('AC/DC','Back in Black','1980','30.1','Hard rock'),
-        ('Whitney Houston','The Bodyguard','1992','28.7','R&B'),
-        ('Pink Floyd','The Dark Side of the Moon','1973','24.8','Progressive rock'),
-        ('Eagles','Their Greatest Hits (1971–1975)','1976','41.2','Country rock'),
-        ('Meat Loaf','Bat Out of Hell','1977','22','Hard rock'),
-        ('Eagles','Hotel California','1976','31.8','Soft rock'),
-        ('Shania Twain','Come On Over',1997,'30.4','Country'),
+        ('Michael Jackson','Thriller',1982,51.2,'Pop'),
+        ('AC/DC','Back in Black',1980,30.1,'Hard rock'),
+        ('Whitney Houston','The Bodyguard',1992,28.7,'R&B'),
+        ('Pink Floyd','The Dark Side of the Moon',1973,24.8,'Progressive rock'),
+        ('Eagles','Their Greatest Hits (1971–1975)',1976,41.2,'Country rock'),
+        ('Meat Loaf','Bat Out of Hell',1977,22,'Hard rock'),
+        ('Eagles','Hotel California',1976,31.8,'Soft rock'),
+        ('Shania Twain','Come On Over',1997,30.4,'Country'),
         ('Fleetwood Mac','Rumours',1977,29.3 ,'Soft rock'),
         ('Bee Gees','Saturday Night Fever', 1977, 22.1,'Disco'),
         ('Led Zeppelin', 'Led Zeppelin IV', 1971,  30.4,'Hard rock'),
@@ -34,5 +34,3 @@ INSERT INTO albums (artist, name, release_date, sales, genre)
         ('The Beatles', 'Sgt. Pepper''s Lonely Hearts Club Band', 1967, 18.3 ,'Rock'),
         ('Michael Jackson', 'Dangerous', 1991, 17.0, 'New jack swing'),
         ('The Beatles', 'Abbey Road', 1969, 16.9, 'Rock');
-
-
