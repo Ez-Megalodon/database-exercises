@@ -25,25 +25,20 @@ select first_name, last_name from employees
 # BONUS 1
 select dept_name from departments
     where dept_no in (
-        select dept_no
-        from dept_manager
-        where emp_no in (
-            select emp_no
-            from employees
-            where gender = 'F'
+        select dept_no from dept_manager
+            where emp_no in (
+                select emp_no
+                from employees
+                where gender = 'F'
             )
         and to_date like '9%'
-        order by dept_name
-        );
+    )
+    order by dept_name;
 
 # BONUS 2
 select first_name, last_name from employees
     where emp_no in (
-        select emp_no
-        from salaries
+        select emp_no from salaries
         where salary in (
-            select MAX(salary)
-            from salaries
-            )
-        );
-
+            select MAX(salary) from salaries)
+    );
