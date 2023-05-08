@@ -22,7 +22,7 @@ select first_name, last_name from employees
         )
     and (gender = 'F');
 
-# BONUS 1
+# BONUS 1 - complete
 select dept_name from departments
     where dept_no in (
         select dept_no from dept_manager
